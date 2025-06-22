@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {"item": "more-materials:iron_stick"},
+    "x": {"item": "minecraft:emerald"}
+  },
+  "pattern": [
+    "xxx",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:emerald_pickaxe"
+  }
+}

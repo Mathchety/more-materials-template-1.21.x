@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ores",
+  "ingredients": [
+    {
+      "item": "more-materials:aluminium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "more-materials:aluminium_ingot"
+  }
+}

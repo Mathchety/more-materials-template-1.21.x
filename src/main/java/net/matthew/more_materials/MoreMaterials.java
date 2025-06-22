@@ -2,6 +2,9 @@ package net.matthew.more_materials;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.matthew.more_materials.block.ModBlocks;
+import net.matthew.more_materials.item.ModItemGroups;
+import net.matthew.more_materials.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,9 @@ public class MoreMaterials implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

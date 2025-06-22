@@ -1,0 +1,15 @@
+{
+  "item.more-materials.emerald_sword": "Emerald Sword",
+  "item.more-materials.emerald_pickaxe": "Emerald Pickaxe",
+  "item.more-materials.iron_stick": "Iron Stick",
+  "item.more-materials.aluminium_ingot": "Aluminium Ingot",
+  "item.more-materials.raw_aluminium": "Raw Aluminium",
+
+  "block.more-materials.aluminium_block": "Block of Aluminium",
+  "block.more-materials.raw_aluminium_block": "Block of Raw Aluminium",
+  "block.more-materials.aluminium_ore": "Aluminium Ore",
+  "block.more-materials.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+
+  "itemgroup.more-materials.more_materials_items" : "More Materials Items",
+  "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks"
+}
