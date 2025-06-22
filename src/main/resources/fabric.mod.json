@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "more-materials",
+	"version": "${version}",
+	"name": "More Materials",
+	"description": "More Materials by Matthew, use more vanilla ores to craft your armor and tools",
+	"authors": [
+		"Matheus!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/more-materials/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.matthew.more_materials.MoreMaterials"
+		],
+		"fabric-datagen": [
+			"net.matthew.more_materials.MoreMaterialsDataGenerator"
+		],
+		"client": [
+			"net.matthew.more_materials.MoreMaterialsClient"
+		]
+	},
+	"mixins": [
+		"more-materials.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
