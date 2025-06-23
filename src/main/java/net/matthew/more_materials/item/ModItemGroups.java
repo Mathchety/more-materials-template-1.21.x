@@ -22,6 +22,16 @@ public class ModItemGroups {
                       entries.add(ModItems.IRON_STICK);
                       entries.add(ModItems.ALUMINIUM_INGOT);
                       entries.add(ModItems.RAW_ALUMINIUM);
+
+                      entries.add(ModItems.CHISEL);
+
+                      entries.add(ModItems.EMERALDFLOWER);
+
+                      entries.add(ModItems.POWERED_COAL);
+
+
+
+
                     }).build());
 
     public static final ItemGroup MORE_MATERIALS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -33,6 +43,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.RAW_ALUMINIUM_BLOCK);
                       entries.add(ModBlocks.ALUMINIUM_ORE);
                       entries.add(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
+                      entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 

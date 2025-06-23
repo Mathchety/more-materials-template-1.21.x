@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": { "item": "minecraft:apple"},
+    "x": { "item": "minecraft:emerald"},
+    "y": { "item": "minecraft:wheat_seeds"}
+  },
+  "pattern": [
+    " # ",
+    "yxy",
+    " y "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:emerald_flower"
+  }
+}

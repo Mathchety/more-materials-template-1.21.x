@@ -2,6 +2,7 @@ package net.matthew.more_materials;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.item.ModItemGroups;
 import net.matthew.more_materials.item.ModItems;
@@ -18,5 +19,7 @@ public class MoreMaterials implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.POWERED_COAL, 12800);
 	}
 }

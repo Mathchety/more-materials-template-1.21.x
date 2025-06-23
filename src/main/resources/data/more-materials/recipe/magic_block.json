@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "key": {
+    "#": {"item": "more-materials:aluminium_ingot"},
+    "x": {"item": "minecraft:diamond"}
+  },
+  "pattern": [
+    "###",
+    "#x#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:magic_block"
+  }
+}

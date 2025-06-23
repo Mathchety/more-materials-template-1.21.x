@@ -1,13 +1,12 @@
 package net.matthew.more_materials.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.matthew.more_materials.MoreMaterials;
+import net.matthew.more_materials.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -30,6 +29,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2,3),
                     AbstractBlock.Settings.create().strength(4f, 6f)
                             .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1,2).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block){

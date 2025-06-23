@@ -4,12 +4,22 @@
   "item.more-materials.iron_stick": "Iron Stick",
   "item.more-materials.aluminium_ingot": "Aluminium Ingot",
   "item.more-materials.raw_aluminium": "Raw Aluminium",
+  "item.more-materials.chisel": "Chisel",
+  "item.more-materials.emerald_flower": "Emerald Flower",
+  "item.more-materials.powered_coal": "Powered Coal",
 
   "block.more-materials.aluminium_block": "Block of Aluminium",
   "block.more-materials.raw_aluminium_block": "Block of Raw Aluminium",
   "block.more-materials.aluminium_ore": "Aluminium Ore",
   "block.more-materials.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+  "block.more-materials.magic_block": "Magic Block",
 
   "itemgroup.more-materials.more_materials_items" : "More Materials Items",
-  "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks"
+  "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks",
+
+  "tooltip.more-materials.magic_block.tooltip" : "This block can UNcraft the §9CHISEL§r",
+  "tooltip.more-materials.chisel.shift_down" : "This item chisels Blocks into Bricks",
+  "tooltip.more-materials.chisel" : "Press §eShift§r for more information!",
+  "tooltip.more-materials.emerald_flower" : "This flower is the best friend of the miners!",
+  "tooltip.more-materials.powered_coal" : "This powerful fuel can burn a full stack of items"
 }
