@@ -45,7 +45,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks(){
-        MoreMaterials.LOGGER.info("Regsitering Mod Blocks for "+ MoreMaterials.MOD_ID);
+        MoreMaterials.LOGGER.info("Registering Mod Blocks for "+ MoreMaterials.MOD_ID);
 
 //        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
 //            entries.add(ModBlocks.ALUMINIUM_BLOCK);
