@@ -2,9 +2,7 @@ package net.matthew.more_materials.block;
 
 import net.matthew.more_materials.MoreMaterials;
 import net.matthew.more_materials.block.custom.MagicBlock;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -32,6 +30,37 @@ public class ModBlocks {
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             new MagicBlock(AbstractBlock.Settings.create().strength(1,2).requiresTool()));
+
+    public static final Block EMERALD_STAIRS = registerBlock("emerald_stairs",
+            new StairsBlock(Blocks.EMERALD_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block EMERALD_SLAB = registerBlock("emerald_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block EMERALD_BUTTON = registerBlock("emerald_button",
+            new ButtonBlock(BlockSetType.IRON, 20, AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL).noCollision()));
+    public static final Block EMERALD_PRESSURE_PLATE = registerBlock("emerald_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block EMERALD_FENCE = registerBlock("emerald_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block EMERALD_FENCE_GATE = registerBlock("emerald_fence_gate",
+            new FenceGateBlock(WoodType.OAK, AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block EMERALD_WALL = registerBlock("emerald_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block EMERALD_DOOR = registerBlock("emerald_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+    public static final Block EMERALD_TRAPDOOR = registerBlock("emerald_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f)
+                            .requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
 
     private static Block registerBlock(String name, Block block){

@@ -1,6 +1,15 @@
-// 1.21	2025-06-23T23:27:57.1935397	More Materials/Block Loot Tables
-1325b66d3239d79d249063c6247424cfd86d7ceb data\more-materials\loot_table\blocks\raw_aluminium_block.json
+// 1.21	2025-06-24T23:20:26.6667162	More Materials/Block Loot Tables
+66f87dbea90a16affdbfa7eb06e699f9c823aa08 data\more-materials\loot_table\blocks\emerald_button.json
+6c211fd619abbb6526e3fd62696519915fe3976c data\more-materials\loot_table\blocks\emerald_trapdoor.json
+468afc62e4ca1c348e247b0f4136f418d7970278 data\more-materials\loot_table\blocks\emerald_pressure_plate.json
 30e4d18e58fec34247cb799601c00a22df168f9b data\more-materials\loot_table\blocks\aluminium_ore.json
 00c56e5ec81608a819075daea5e045b1252a0e59 data\more-materials\loot_table\blocks\deepslate_aluminium_ore.json
 0b028d5a2d1d1eb043f30d3b46896244137e5564 data\more-materials\loot_table\blocks\aluminium_block.json
+8b9b94f1666663e1ef3e081f06cf790a6099fb1f data\more-materials\loot_table\blocks\emerald_stairs.json
+733cd7fa401cac967739d6cfdad93c599feab96c data\more-materials\loot_table\blocks\emerald_fence_gate.json
+c8ce1e4a1ecd79bcc28859e63c6a9d855b17f5a5 data\more-materials\loot_table\blocks\emerald_wall.json
+b75f43a7c99cfadb08f119250280ee43c7346d47 data\more-materials\loot_table\blocks\emerald_slab.json
+1325b66d3239d79d249063c6247424cfd86d7ceb data\more-materials\loot_table\blocks\raw_aluminium_block.json
+683eb92b6fa1d790db17aceed74303d63d3a1b3a data\more-materials\loot_table\blocks\emerald_door.json
+f93fb6ac373977f6a0604459a66772fe0c47d838 data\more-materials\loot_table\blocks\emerald_fence.json
 e3ae576bbab8eaa3cb0a42ae9b6ab32a6b4cffe0 data\more-materials\loot_table\blocks\magic_block.json

@@ -4,11 +4,13 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.item.ModItems;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -94,6 +96,46 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', ModItems.IRON_STICK)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(recipeExporter);
+
+        createStairsRecipe(ModBlocks.EMERALD_STAIRS, Ingredient.ofItems(Items.EMERALD))
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD_BLOCK))
+                .offerTo(recipeExporter);
+
+        offerSlabRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERALD_SLAB, Items.EMERALD_BLOCK);
+
+        createDoorRecipe(ModBlocks.EMERALD_DOOR, Ingredient.ofItems(Items.EMERALD))
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+        createTrapdoorRecipe(ModBlocks.EMERALD_TRAPDOOR, Ingredient.ofItems(Items.EMERALD))
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.EMERALD_BUTTON, 2)
+                .input(Blocks.EMERALD_BLOCK)
+                .criterion(hasItem(Blocks.EMERALD_BLOCK), conditionsFromItem(Blocks.EMERALD_BLOCK))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_FENCE, 6)
+                .pattern("EIE")
+                .pattern("EIE")
+                .input('E', Items.EMERALD)
+                .input('I', ModItems.IRON_STICK)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_FENCE_GATE, 2)
+                .pattern("IEI")
+                .pattern("IEI")
+                .input('E', Items.EMERALD)
+                .input('I', ModItems.IRON_STICK)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+        offerPressurePlateRecipe(recipeExporter, ModBlocks.EMERALD_PRESSURE_PLATE, Blocks.EMERALD_BLOCK);
+
+        offerWallRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERALD_WALL, Blocks.EMERALD_BLOCK);
+
+
 
 //        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_ALUMINIUM, 9)
 //                .input(ModBlocks.RAW_ALUMINIUM_BLOCK)

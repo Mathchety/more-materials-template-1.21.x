@@ -26,7 +26,8 @@ public class ChiselItem extends Item {
                     Blocks.STONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
                     Blocks.IRON_BLOCK, ModBlocks.ALUMINIUM_BLOCK,
-                    Blocks.DIAMOND_BLOCK, Blocks.EMERALD_BLOCK
+                    Blocks.DIAMOND_BLOCK, Blocks.EMERALD_BLOCK,
+                    Blocks.STONE_BRICKS, Blocks.STONE
             );
 
     public ChiselItem(Settings settings) {

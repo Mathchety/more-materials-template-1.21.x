@@ -14,6 +14,16 @@
   "block.more-materials.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
   "block.more-materials.magic_block": "Magic Block",
 
+  "block.more-materials.emerald_stairs": "Emerald Stairs",
+  "block.more-materials.emerald_slab": "Emerald Slab",
+  "block.more-materials.emerald_door": "Emerald Door",
+  "block.more-materials.emerald_trapdoor": "Emerald TrapDoor",
+  "block.more-materials.emerald_button": "Emerald Button",
+  "block.more-materials.emerald_fence": "Emerald Fence",
+  "block.more-materials.emerald_fence_gate": "Emerald Fence Gate",
+  "block.more-materials.emerald_pressure_plate": "Emerald PressurePlate",
+  "block.more-materials.emerald_wall": "Emerald Wall",
+
   "itemgroup.more-materials.more_materials_items" : "More Materials Items",
   "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks",
 

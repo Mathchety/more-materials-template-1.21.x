@@ -44,6 +44,16 @@ public class ModItemGroups {
                       entries.add(ModBlocks.ALUMINIUM_ORE);
                       entries.add(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
                       entries.add(ModBlocks.MAGIC_BLOCK);
+                      entries.add(ModBlocks.EMERALD_STAIRS);
+                      entries.add(ModBlocks.EMERALD_SLAB);
+                      entries.add(ModBlocks.EMERALD_DOOR);
+                      entries.add(ModBlocks.EMERALD_TRAPDOOR);
+                      entries.add(ModBlocks.EMERALD_BUTTON);
+                      entries.add(ModBlocks.EMERALD_FENCE);
+                      entries.add(ModBlocks.EMERALD_FENCE_GATE);
+                      entries.add(ModBlocks.EMERALD_PRESSURE_PLATE);
+                      entries.add(ModBlocks.EMERALD_WALL);
+
                     }).build());
 
 
