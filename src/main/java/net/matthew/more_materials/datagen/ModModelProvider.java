@@ -3,12 +3,12 @@ package net.matthew.more_materials.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.matthew.more_materials.block.ModBlocks;
+import net.matthew.more_materials.block.custom.EmeraldLampBlock;
 import net.matthew.more_materials.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
+import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.NotNull;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -37,20 +37,28 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerDoor(ModBlocks.EMERALD_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.EMERALD_TRAPDOOR);
+
+        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.EMERALD_LAMP, blockStateModelGenerator.modelCollector);
+        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.EMERALD_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
+        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.EMERALD_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(EmeraldLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override
     public void generateItemModels(@NotNull ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ALUMINIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ALUMINIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.IRON_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_STICK, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMERALDFLOWER, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.GENERATED);
-        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.EMERALD_HOE, Models.HANDHELD);
     }
 }

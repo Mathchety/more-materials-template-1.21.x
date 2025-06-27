@@ -97,6 +97,33 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_AXE, 1)
+                .pattern("EE")
+                .pattern("EI")
+                .pattern(" I")
+                .input('E', Items.EMERALD)
+                .input('I', ModItems.IRON_STICK)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_SHOVEL, 1)
+                .pattern("E")
+                .pattern("I")
+                .pattern("I")
+                .input('E', Items.EMERALD)
+                .input('I', ModItems.IRON_STICK)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.EMERALD_HOE, 1)
+                .pattern("EE")
+                .pattern(" I")
+                .pattern(" I")
+                .input('E', Items.EMERALD)
+                .input('I', ModItems.IRON_STICK)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
         createStairsRecipe(ModBlocks.EMERALD_STAIRS, Ingredient.ofItems(Items.EMERALD))
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD_BLOCK))
                 .offerTo(recipeExporter);
@@ -134,6 +161,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerPressurePlateRecipe(recipeExporter, ModBlocks.EMERALD_PRESSURE_PLATE, Blocks.EMERALD_BLOCK);
 
         offerWallRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EMERALD_WALL, Blocks.EMERALD_BLOCK);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.EMERALD_LAMP, 1)
+                .pattern(" E ")
+                .pattern("EGE")
+                .pattern(" E ")
+                .input('E', Items.EMERALD)
+                .input('G', Items.GLOWSTONE)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+
+
 
 
 

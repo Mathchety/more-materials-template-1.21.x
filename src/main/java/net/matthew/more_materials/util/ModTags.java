@@ -9,6 +9,10 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks{
+        public static final TagKey<Block> NEEDS_ALUMINIUM_TOOL = createTag("needs_aluminium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ALUMINIUM_TOOL = createTag("incorrect_for_aluminium_tool");
+        public static final TagKey<Block> NEEDS_EMERALD_TOOL = createTag("needs_emerald_tool");
+        public static final TagKey<Block> INCORRECT_FOR_EMERALD_TOOL = createTag("incorrect_for_emerald_tool");
 
         private static TagKey<Block> createTag (String name){
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MoreMaterials.MOD_ID, name));

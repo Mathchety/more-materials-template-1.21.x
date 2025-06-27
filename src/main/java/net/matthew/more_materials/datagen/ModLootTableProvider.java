@@ -31,5 +31,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.EMERALD_BUTTON);
         addDrop(ModBlocks.EMERALD_PRESSURE_PLATE);
         addDrop(ModBlocks.EMERALD_WALL);
+        addDrop(ModBlocks.EMERALD_LAMP);
     }
 }

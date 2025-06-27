@@ -1,2 +1,7 @@
-// 1.21	2025-06-24T23:20:26.6687107	More Materials/Tags for minecraft:item
+// 1.21	2025-06-26T22:49:42.6406207	More Materials/Tags for minecraft:item
+07cdfd4ee1a2e5c38ee1c0ff57beceb00be45815 data\minecraft\tags\item\pickaxes.json
+10dfee31e49a6aab307562751e1f7d5eae8b934b data\minecraft\tags\item\axes.json
+4503194b1f6f11bad707be7e347c1f8dd334695a data\minecraft\tags\item\hoes.json
 f77a3e369fb8d8c24dc4f52607dd4f98d75df789 data\more-materials\tags\item\transformable_items.json
+2ff47e0f4f228826b04576a77ffbb68a1e081a6b data\minecraft\tags\item\swords.json
+e8dcb3d37a14ef1cc9032ebc7da526244651adad data\minecraft\tags\item\shovels.json

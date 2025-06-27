@@ -1,6 +1,7 @@
 package net.matthew.more_materials.block;
 
 import net.matthew.more_materials.MoreMaterials;
+import net.matthew.more_materials.block.custom.EmeraldLampBlock;
 import net.matthew.more_materials.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -61,6 +62,10 @@ public class ModBlocks {
     public static final Block EMERALD_TRAPDOOR = registerBlock("emerald_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f)
                             .requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+
+    public static final Block EMERALD_LAMP = registerBlock("emerald_lamp",
+            new EmeraldLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(EmeraldLampBlock.CLICKED) ? 10 : 0)));
 
 
     private static Block registerBlock(String name, Block block){

@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.matthew.more_materials.block.ModBlocks;
+import net.matthew.more_materials.component.ModDataComponentTypes;
 import net.matthew.more_materials.item.ModItemGroups;
 import net.matthew.more_materials.item.ModItems;
 import org.slf4j.Logger;
@@ -19,6 +20,8 @@ public class MoreMaterials implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModDataComponentTypes.registerModDataComponentTypes();
 
 		FuelRegistry.INSTANCE.add(ModItems.POWERED_COAL, 12800);
 	}

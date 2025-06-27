@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "more-materials:block/emerald_lamp"
+    },
+    "clicked=true": {
+      "model": "more-materials:block/emerald_lamp_on"
+    }
+  }
+}

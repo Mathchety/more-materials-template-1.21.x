@@ -19,6 +19,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.EMERALD_SWORD);
                       entries.add(ModItems.EMERALD_PICKAXE);
+                      entries.add(ModItems.EMERALD_AXE);
+                      entries.add(ModItems.EMERALD_SHOVEL);
+                      entries.add(ModItems.EMERALD_HOE);
                       entries.add(ModItems.IRON_STICK);
                       entries.add(ModItems.ALUMINIUM_INGOT);
                       entries.add(ModItems.RAW_ALUMINIUM);
@@ -53,6 +56,8 @@ public class ModItemGroups {
                       entries.add(ModBlocks.EMERALD_FENCE_GATE);
                       entries.add(ModBlocks.EMERALD_PRESSURE_PLATE);
                       entries.add(ModBlocks.EMERALD_WALL);
+
+                      entries.add(ModBlocks.EMERALD_LAMP);
 
                     }).build());
 

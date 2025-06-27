@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "more-materials:item/iron_stick"
+    "layer0": "more-materials:item/emerald_hoe"
   }
 }

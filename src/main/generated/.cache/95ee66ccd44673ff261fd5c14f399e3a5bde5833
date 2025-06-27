@@ -1,4 +1,4 @@
-// 1.21	2025-06-24T23:20:26.6667162	More Materials/Block Loot Tables
+// 1.21	2025-06-26T22:49:42.6386257	More Materials/Block Loot Tables
 66f87dbea90a16affdbfa7eb06e699f9c823aa08 data\more-materials\loot_table\blocks\emerald_button.json
 6c211fd619abbb6526e3fd62696519915fe3976c data\more-materials\loot_table\blocks\emerald_trapdoor.json
 468afc62e4ca1c348e247b0f4136f418d7970278 data\more-materials\loot_table\blocks\emerald_pressure_plate.json
@@ -9,6 +9,7 @@
 733cd7fa401cac967739d6cfdad93c599feab96c data\more-materials\loot_table\blocks\emerald_fence_gate.json
 c8ce1e4a1ecd79bcc28859e63c6a9d855b17f5a5 data\more-materials\loot_table\blocks\emerald_wall.json
 b75f43a7c99cfadb08f119250280ee43c7346d47 data\more-materials\loot_table\blocks\emerald_slab.json
+6d158c9867ac6efc05aa49a694273d0b9e9eb96c data\more-materials\loot_table\blocks\emerald_lamp.json
 1325b66d3239d79d249063c6247424cfd86d7ceb data\more-materials\loot_table\blocks\raw_aluminium_block.json
 683eb92b6fa1d790db17aceed74303d63d3a1b3a data\more-materials\loot_table\blocks\emerald_door.json
 f93fb6ac373977f6a0604459a66772fe0c47d838 data\more-materials\loot_table\blocks\emerald_fence.json
