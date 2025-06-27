@@ -22,6 +22,13 @@ public class ModItemGroups {
                       entries.add(ModItems.EMERALD_AXE);
                       entries.add(ModItems.EMERALD_SHOVEL);
                       entries.add(ModItems.EMERALD_HOE);
+                      entries.add(ModItems.EMERALD_HAMMER);
+
+                      entries.add(ModItems.EMERALD_HELMET);
+                      entries.add(ModItems.EMERALD_CHESTPLATE);
+                      entries.add(ModItems.EMERALD_LEGGINGS);
+                      entries.add(ModItems.EMERALD_BOOTS);
+
                       entries.add(ModItems.IRON_STICK);
                       entries.add(ModItems.ALUMINIUM_INGOT);
                       entries.add(ModItems.RAW_ALUMINIUM);

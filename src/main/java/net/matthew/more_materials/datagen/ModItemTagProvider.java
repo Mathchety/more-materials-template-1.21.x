@@ -25,12 +25,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.EMERALD_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.EMERALD_PICKAXE);
+                .add(ModItems.EMERALD_PICKAXE)
+                .add(ModItems.EMERALD_HAMMER);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.EMERALD_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.EMERALD_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.EMERALD_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.EMERALD_HELMET)
+                .add(ModItems.EMERALD_CHESTPLATE)
+                .add(ModItems.EMERALD_LEGGINGS)
+                .add(ModItems.EMERALD_BOOTS);
     }
 }

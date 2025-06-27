@@ -2,6 +2,8 @@ package net.matthew.more_materials.item;
 
 import net.matthew.more_materials.MoreMaterials;
 import net.matthew.more_materials.item.custom.ChiselItem;
+import net.matthew.more_materials.item.custom.HammerItem;
+import net.matthew.more_materials.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -16,7 +18,6 @@ public class ModItems {
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 3, -2.4f))));
-
     public static final Item EMERALD_PICKAXE = registerItem("emerald_pickaxe",
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 1, -2.8f))));
@@ -29,6 +30,23 @@ public class ModItems {
     public static final Item EMERALD_HOE = registerItem("emerald_hoe",
             new HoeItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.EMERALD, -3, 0f))));
+    public static final Item EMERALD_HAMMER = registerItem("emerald_hammer",
+            new HammerItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 6, -3.2f))));
+
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+            new ModArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate",
+            new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+
 
     public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings()));
     public static final Item ALUMINIUM_INGOT = registerItem("aluminium_ingot", new Item(new Item.Settings()));
