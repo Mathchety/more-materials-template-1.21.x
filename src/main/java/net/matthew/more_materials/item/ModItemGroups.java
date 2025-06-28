@@ -29,6 +29,8 @@ public class ModItemGroups {
                       entries.add(ModItems.EMERALD_LEGGINGS);
                       entries.add(ModItems.EMERALD_BOOTS);
 
+                      entries.add(ModItems.EMERALD_HORSE_ARMOR);
+
                       entries.add(ModItems.IRON_STICK);
                       entries.add(ModItems.ALUMINIUM_INGOT);
                       entries.add(ModItems.RAW_ALUMINIUM);
@@ -38,6 +40,8 @@ public class ModItemGroups {
                       entries.add(ModItems.EMERALDFLOWER);
 
                       entries.add(ModItems.POWERED_COAL);
+
+                      entries.add(ModItems.CUBRIUM_SMITHING_TEMPLATE);
 
 
 

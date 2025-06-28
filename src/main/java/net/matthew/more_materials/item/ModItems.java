@@ -8,6 +8,7 @@ import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
@@ -46,6 +47,13 @@ public class ModItems {
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
             new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
+
+    public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor",
+            new AnimalArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
+                    .maxCount(1)));
+
+    public static final Item CUBRIUM_SMITHING_TEMPLATE = registerItem("cubrium_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(MoreMaterials.MOD_ID, "cubrium"), FeatureFlags.VANILLA));
 
 
     public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings()));
