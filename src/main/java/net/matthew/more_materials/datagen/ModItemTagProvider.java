@@ -33,8 +33,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.EMERALD_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.EMERALD_HOE);
+        getOrCreateTagBuilder(ItemTags.BOW_ENCHANTABLE)
+                .add(ModItems.EMERALD_BOW);
 
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+        getOrCreateTagBuilder(ItemTags.ARMOR_ENCHANTABLE)
                 .add(ModItems.EMERALD_HELMET)
                 .add(ModItems.EMERALD_CHESTPLATE)
                 .add(ModItems.EMERALD_LEGGINGS)

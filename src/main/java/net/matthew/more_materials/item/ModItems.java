@@ -34,6 +34,8 @@ public class ModItems {
     public static final Item EMERALD_HAMMER = registerItem("emerald_hammer",
             new HammerItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.EMERALD, 6, -3.2f))));
+    public static final Item EMERALD_BOW = registerItem("emerald_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
 
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
             new ModArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
@@ -51,9 +53,6 @@ public class ModItems {
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
                     .maxCount(1)));
-
-    public static final Item CUBRIUM_SMITHING_TEMPLATE = registerItem("cubrium_armor_trim_smithing_template",
-            SmithingTemplateItem.of(Identifier.of(MoreMaterials.MOD_ID, "cubrium"), FeatureFlags.VANILLA));
 
 
     public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings()));

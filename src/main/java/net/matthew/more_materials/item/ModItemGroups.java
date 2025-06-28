@@ -23,6 +23,7 @@ public class ModItemGroups {
                       entries.add(ModItems.EMERALD_SHOVEL);
                       entries.add(ModItems.EMERALD_HOE);
                       entries.add(ModItems.EMERALD_HAMMER);
+                      entries.add(ModItems.EMERALD_BOW);
 
                       entries.add(ModItems.EMERALD_HELMET);
                       entries.add(ModItems.EMERALD_CHESTPLATE);
@@ -41,7 +42,6 @@ public class ModItemGroups {
 
                       entries.add(ModItems.POWERED_COAL);
 
-                      entries.add(ModItems.CUBRIUM_SMITHING_TEMPLATE);
 
 
 

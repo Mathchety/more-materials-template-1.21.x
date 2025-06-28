@@ -51,7 +51,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RAW_ALUMINIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.IRON_STICK, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMERALDFLOWER, Models.GENERATED);
@@ -70,6 +70,5 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.EMERALD_HORSE_ARMOR, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.CUBRIUM_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

@@ -1,4 +1,4 @@
-// 1.21	2025-06-27T21:09:55.7567446	More Materials/Model Definitions
+// 1.21	2025-06-27T23:00:15.5435505	More Materials/Model Definitions
 67e274c74dab21d99da1bef5da0cf39d89784171 assets\more-materials\models\item\emerald_boots_gold_trim.json
 5f248ba811bad3664fd1d8aa91f62b0e8fa228e2 assets\more-materials\models\item\iron_stick.json
 90361294ac8d1556905b4203e1330d51ab34241b assets\more-materials\models\item\emerald_chestplate_gold_trim.json
@@ -40,8 +40,8 @@ dad1189c07e5247e8bee071316e417f0eb80639e assets\more-materials\models\block\magi
 9f9c418ae382a6e762cc143ef01b98bce9cd165a assets\more-materials\models\item\emerald_chestplate_lapis_trim.json
 655af5731d6a112d8a9b058b13aef7f2291f4235 assets\more-materials\models\item\emerald_hoe.json
 adf983d459dab946ef2660ffb9bd2a10d7780245 assets\more-materials\models\item\emerald_boots.json
-61a6eec36bdab479d5a507bbf9426678aec167b5 assets\more-materials\blockstates\magic_block.json
 606be3023593462a01634cd7cf9270f828a6fda4 assets\more-materials\models\block\emerald_wall_side.json
+61a6eec36bdab479d5a507bbf9426678aec167b5 assets\more-materials\blockstates\magic_block.json
 22329484d9cd17806343c9ab55b89d59177e78f9 assets\more-materials\models\item\emerald_chestplate.json
 7dd540f7fb772094eaf46b428aee4a738760d0bf assets\more-materials\models\item\emerald_leggings.json
 458da61f56856c134359e3c311be0cdd48810c41 assets\more-materials\models\block\emerald_stairs.json
@@ -80,8 +80,8 @@ e3ae49c1ac732dac78761d48e9df983217ad3668 assets\more-materials\models\item\emera
 81cf147c38e3577153f3a4cbe62a13ad0e044054 assets\more-materials\models\item\magic_block.json
 842454916a7440be4c101f0472de95f1f4e640ab assets\more-materials\blockstates\emerald_door.json
 bb632e46e0dcf37619db411ad760a3c0f1bae668 assets\more-materials\models\block\deepslate_aluminium_ore.json
-fc9d34910cd3032402d3648a6776dbb6746188a9 assets\more-materials\models\item\deepslate_aluminium_ore.json
 573e98391397a01446535e296585834a0d57ca5f assets\more-materials\models\item\emerald_helmet_lapis_trim.json
+fc9d34910cd3032402d3648a6776dbb6746188a9 assets\more-materials\models\item\deepslate_aluminium_ore.json
 f6ddf9e393358955d89be02ce820612e761e8bd4 assets\more-materials\models\block\emerald_door_bottom_right_open.json
 05befb55b4c2c0103262db998d35118606f9b8af assets\more-materials\models\block\emerald_button_pressed.json
 f54820211730e46198659984c43f18b144f24efe assets\more-materials\models\item\aluminium_ingot.json
@@ -102,7 +102,6 @@ adb8c13327ef657b616bf8a5bff3d3d2441f9031 assets\more-materials\models\item\emera
 1f5c493cde0009025e2c05b34333d263290299ec assets\more-materials\models\item\aluminium_ore.json
 86bab3daa207c644bb9b742bb569705f5c1647ae assets\more-materials\models\block\emerald_button_inventory.json
 8ec48dccb04f821d9e7f3a9a89cdfefd05f35259 assets\more-materials\blockstates\emerald_fence_gate.json
-866c10f88bd03277375bebc22763419b5a45f531 assets\more-materials\models\item\chisel.json
 83c039feefe5ed8b6e8883f2ef7111233731621f assets\more-materials\models\block\emerald_lamp.json
 8ff219c4c5d087a6d926ef41211463fb373e01e2 assets\more-materials\models\item\emerald_sword.json
 43d691b987e6b1f30243619204e960375d42eed8 assets\more-materials\blockstates\emerald_fence.json
@@ -111,8 +110,8 @@ f98bae61b2b42831201722fc0a4f25dc25894810 assets\more-materials\models\item\emera
 abf5cd7a2509ebc3b45cd6d875a839bcad49b182 assets\more-materials\models\block\emerald_door_top_left.json
 eee56e5195ab542c483e26578aeb14a1ad2e2dbd assets\more-materials\models\item\emerald_chestplate_emerald_trim.json
 9397f10ed323bb464d2769ef6c48e73fc9e33318 assets\more-materials\models\block\emerald_fence_post.json
-e7743dd1509666a0fa64b61086eac770db667c50 assets\more-materials\blockstates\deepslate_aluminium_ore.json
 64488b3072cea4c9319a4ff4b5d034f012aaae26 assets\more-materials\blockstates\emerald_stairs.json
+e7743dd1509666a0fa64b61086eac770db667c50 assets\more-materials\blockstates\deepslate_aluminium_ore.json
 b1c902eb95e757a1dcc8c114a96718699af33755 assets\minecraft\blockstates\emerald_block.json
 1a0f897d2ddfda9984eb2de007a631c3b4b6a7a2 assets\more-materials\blockstates\emerald_trapdoor.json
 6f8c8765eafe869c3a22eeb557b9c250267b9d37 assets\more-materials\models\block\emerald_door_bottom_left_open.json
