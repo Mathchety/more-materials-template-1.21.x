@@ -37,6 +37,7 @@ public class ModItemGroups {
                       entries.add(ModItems.RAW_ALUMINIUM);
 
                       entries.add(ModItems.CHISEL);
+                      entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
                       entries.add(ModItems.EMERALDFLOWER);
 

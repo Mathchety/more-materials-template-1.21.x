@@ -13,6 +13,8 @@
   "item.more-materials.emerald_boots": "Emerald Boots",
 
   "item.more-materials.emerald_horse_armor": "Emerald Horse Armor",
+  "item.more-materials.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.more-materials.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "item.more-materials.iron_stick": "Iron Stick",
   "item.more-materials.aluminium_ingot": "Aluminium Ingot",
@@ -38,6 +40,13 @@
   "block.more-materials.emerald_wall": "Emerald Wall",
 
   "block.more-materials.emerald_lamp": "Emerald Lamp",
+
+  "effect.more-materials.slimey": "Slimey",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+  "item.minecraft.tipped_arrow.effect.slimey_potion": "Arrow of Slimey",
 
   "itemgroup.more-materials.more_materials_items" : "More Materials Items",
   "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks",

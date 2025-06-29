@@ -4,6 +4,7 @@ import net.matthew.more_materials.MoreMaterials;
 import net.matthew.more_materials.item.custom.ChiselItem;
 import net.matthew.more_materials.item.custom.HammerItem;
 import net.matthew.more_materials.item.custom.ModArmorItem;
+import net.matthew.more_materials.sound.ModSounds;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
@@ -76,6 +77,9 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
 
 
     private static Item registerItem(String name, Item item){

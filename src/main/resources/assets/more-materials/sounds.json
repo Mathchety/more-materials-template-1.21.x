@@ -4,5 +4,13 @@
     "sounds": [
       "more-materials:chisel_use"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "more-materials:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

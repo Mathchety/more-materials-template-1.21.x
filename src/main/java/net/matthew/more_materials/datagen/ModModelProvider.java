@@ -69,6 +69,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_BOOTS));
 
         itemModelGenerator.register(ModItems.EMERALD_HORSE_ARMOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
 
     }
 }
