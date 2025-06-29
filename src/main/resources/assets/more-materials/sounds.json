@@ -1,0 +1,8 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.more-materials.chisel_use",
+    "sounds": [
+      "more-materials:chisel_use"
+    ]
+  }
+}

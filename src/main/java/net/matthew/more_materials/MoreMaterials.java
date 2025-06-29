@@ -8,6 +8,7 @@ import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.component.ModDataComponentTypes;
 import net.matthew.more_materials.item.ModItemGroups;
 import net.matthew.more_materials.item.ModItems;
+import net.matthew.more_materials.sound.ModSounds;
 import net.matthew.more_materials.util.HammerUsageEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ public class MoreMaterials implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModSounds.registerSounds();
 
 		ModDataComponentTypes.registerModDataComponentTypes();
 
