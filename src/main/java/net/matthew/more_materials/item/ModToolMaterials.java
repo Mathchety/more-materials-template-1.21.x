@@ -11,8 +11,10 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    ALUMINIUM(ModTags.Blocks.INCORRECT_FOR_ALUMINIUM_TOOL, 230, 5.0F, 2.0F, 13, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
-    EMERALD(ModTags.Blocks.INCORRECT_FOR_EMERALD_TOOL, 1700, 8.5F, 3.5F, 18, () -> Ingredient.ofItems(Items.EMERALD));
+    COPPER(ModTags.Blocks.INCORRECT_FOR_COPPER_TOOL, 200, 4.3F, 1.0F, 8, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
+    ALUMINIUM(ModTags.Blocks.INCORRECT_FOR_ALUMINIUM_TOOL, 240, 5.5F, 2.0F, 13, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT)),
+    EMERALD(ModTags.Blocks.INCORRECT_FOR_EMERALD_TOOL, 1600, 8.5F, 3.5F, 18, () -> Ingredient.ofItems(Items.EMERALD)),
+    STEEL(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL, 2000, 9F, 4F, 20, () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

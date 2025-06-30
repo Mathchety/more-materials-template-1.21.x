@@ -1,5 +1,8 @@
 {
   "values": [
-    "more-materials:emerald_shovel"
+    "more-materials:copper_shovel",
+    "more-materials:aluminium_shovel",
+    "more-materials:emerald_shovel",
+    "more-materials:steel_shovel"
   ]
 }

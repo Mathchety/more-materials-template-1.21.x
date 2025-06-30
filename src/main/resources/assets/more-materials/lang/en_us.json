@@ -1,50 +1,75 @@
 {
+  "item.more-materials.copper_sword": "Copper Sword",
+  "item.more-materials.copper_pickaxe": "Copper Pickaxe",
+  "item.more-materials.copper_axe": "Copper Axe",
+  "item.more-materials.copper_shovel": "Copper Shovel",
+  "item.more-materials.copper_hoe": "Copper Hoe",
+  "item.more-materials.copper_hammer": "Copper Hammer",
+
+  "item.more-materials.copper_helmet": "Copper Helmet",
+  "item.more-materials.copper_chestplate": "Copper Chestplate",
+  "item.more-materials.copper_leggings": "Copper Leggings",
+  "item.more-materials.copper_boots": "Copper Boots",
+  "item.more-materials.copper_horse_armor": "Copper Horse Armor",
+
+  "item.more-materials.aluminium_ingot": "Aluminium Ingot",
+  "item.more-materials.raw_aluminium": "Raw Aluminium",
+
+  "item.more-materials.aluminium_sword": "Aluminium Sword",
+  "item.more-materials.aluminium_pickaxe": "Aluminium Pickaxe",
+  "item.more-materials.aluminium_axe": "Aluminium Axe",
+  "item.more-materials.aluminium_shovel": "Aluminium Shovel",
+  "item.more-materials.aluminium_hoe": "Aluminium Hoe",
+  "item.more-materials.aluminium_hammer": "Aluminium Hammer",
+
+  "item.more-materials.aluminium_helmet": "Aluminium Helmet",
+  "item.more-materials.aluminium_chestplate": "Aluminium Chestplate",
+  "item.more-materials.aluminium_leggings": "Aluminium Leggings",
+  "item.more-materials.aluminium_boots": "Aluminium Boots",
+  "item.more-materials.aluminium_horse_armor": "Aluminium Horse Armor",
+
   "item.more-materials.emerald_sword": "Emerald Sword",
   "item.more-materials.emerald_pickaxe": "Emerald Pickaxe",
   "item.more-materials.emerald_axe": "Emerald Axe",
   "item.more-materials.emerald_shovel": "Emerald Shovel",
   "item.more-materials.emerald_hoe": "Emerald Hoe",
   "item.more-materials.emerald_hammer": "Emerald Hammer",
-  "item.more-materials.emerald_bow": "Emerald Bow",
 
   "item.more-materials.emerald_helmet": "Emerald Helmet",
   "item.more-materials.emerald_chestplate": "Emerald Chestplate",
   "item.more-materials.emerald_leggings": "Emerald Leggings",
   "item.more-materials.emerald_boots": "Emerald Boots",
-
   "item.more-materials.emerald_horse_armor": "Emerald Horse Armor",
 
+  "item.more-materials.steel_ingot": "Steel Ingot",
+
+  "item.more-materials.steel_sword": "Steel Sword",
+  "item.more-materials.steel_pickaxe": "Steel Pickaxe",
+  "item.more-materials.steel_axe": "Steel Axe",
+  "item.more-materials.steel_shovel": "Steel Shovel",
+  "item.more-materials.steel_hoe": "Steel Hoe",
+  "item.more-materials.steel_hammer": "Steel Hammer",
+  "item.more-materials.steel_bow": "Steel Bow",
+
+  "item.more-materials.steel_helmet": "Steel Helmet",
+  "item.more-materials.steel_chestplate": "Steel Chestplate",
+  "item.more-materials.steel_leggings": "Steel Leggings",
+  "item.more-materials.steel_boots": "Steel Boots",
+  "item.more-materials.steel_horse_armor": "Steel Horse Armor",
+
   "item.more-materials.iron_stick": "Iron Stick",
-  "item.more-materials.aluminium_ingot": "Aluminium Ingot",
-  "item.more-materials.raw_aluminium": "Raw Aluminium",
-  "item.more-materials.chisel": "Chisel",
-  "item.more-materials.emerald_flower": "Emerald Flower",
   "item.more-materials.powered_coal": "Powered Coal",
 
   "block.more-materials.aluminium_block": "Block of Aluminium",
   "block.more-materials.raw_aluminium_block": "Block of Raw Aluminium",
   "block.more-materials.aluminium_ore": "Aluminium Ore",
   "block.more-materials.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
-  "block.more-materials.magic_block": "Magic Block",
 
-  "block.more-materials.emerald_stairs": "Emerald Stairs",
-  "block.more-materials.emerald_slab": "Emerald Slab",
-  "block.more-materials.emerald_door": "Emerald Door",
-  "block.more-materials.emerald_trapdoor": "Emerald TrapDoor",
-  "block.more-materials.emerald_button": "Emerald Button",
-  "block.more-materials.emerald_fence": "Emerald Fence",
-  "block.more-materials.emerald_fence_gate": "Emerald Fence Gate",
-  "block.more-materials.emerald_pressure_plate": "Emerald PressurePlate",
-  "block.more-materials.emerald_wall": "Emerald Wall",
+  "block.more-materials.steel_block": "Block of Steel",
 
-  "block.more-materials.emerald_lamp": "Emerald Lamp",
 
   "itemgroup.more-materials.more_materials_items" : "More Materials Items",
   "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks",
 
-  "tooltip.more-materials.magic_block.tooltip" : "This block can UNcraft the §9CHISEL§r",
-  "tooltip.more-materials.chisel.shift_down" : "This item chisels Blocks into Bricks",
-  "tooltip.more-materials.chisel" : "Press §eShift§r for more information!",
-  "tooltip.more-materials.emerald_flower" : "This flower is the best friend of the miners!",
   "tooltip.more-materials.powered_coal" : "This powerful fuel can burn a full stack of items"
 }

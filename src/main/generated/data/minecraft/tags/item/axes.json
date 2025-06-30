@@ -1,5 +1,8 @@
 {
   "values": [
-    "more-materials:emerald_axe"
+    "more-materials:copper_axe",
+    "more-materials:aluminium_axe",
+    "more-materials:emerald_axe",
+    "more-materials:steel_axe"
   ]
 }

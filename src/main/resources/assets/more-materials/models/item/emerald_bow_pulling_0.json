@@ -1,6 +1,0 @@
-{
-  "parent": "more-materials:item/emerald_bow",
-  "textures": {
-    "layer0": "more-materials:item/emerald_bow_pulling_0"
-  }
-}

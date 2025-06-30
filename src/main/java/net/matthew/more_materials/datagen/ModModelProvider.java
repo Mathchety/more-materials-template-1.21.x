@@ -24,37 +24,41 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALUMINIUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGIC_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
 
-        BlockStateModelGenerator.BlockTexturePool emeraldPool = blockStateModelGenerator.registerCubeAllModelTexturePool(Blocks.EMERALD_BLOCK);
-
-        emeraldPool.stairs(ModBlocks.EMERALD_STAIRS);
-        emeraldPool.slab(ModBlocks.EMERALD_SLAB);
-        emeraldPool.button(ModBlocks.EMERALD_BUTTON);
-        emeraldPool.pressurePlate(ModBlocks.EMERALD_PRESSURE_PLATE);
-        emeraldPool.fence(ModBlocks.EMERALD_FENCE);
-        emeraldPool.fenceGate(ModBlocks.EMERALD_FENCE_GATE);
-        emeraldPool.wall(ModBlocks.EMERALD_WALL);
-
-        blockStateModelGenerator.registerDoor(ModBlocks.EMERALD_DOOR);
-        blockStateModelGenerator.registerTrapdoor(ModBlocks.EMERALD_TRAPDOOR);
-
-        Identifier lampOffIdentifier = TexturedModel.CUBE_ALL.upload(ModBlocks.EMERALD_LAMP, blockStateModelGenerator.modelCollector);
-        Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.EMERALD_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
-        blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.EMERALD_LAMP)
-                .coordinate(BlockStateModelGenerator.createBooleanModelMap(EmeraldLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
     }
 
     @Override
     public void generateItemModels(@NotNull ItemModelGenerator itemModelGenerator) {
+
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.COPPER_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+        itemModelGenerator.register(ModItems.COPPER_HORSE_ARMOR, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.ALUMINIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ALUMINIUM, Models.GENERATED);
-        itemModelGenerator.register(ModItems.IRON_STICK, Models.HANDHELD);
 
-        //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ALUMINIUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALUMINIUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALUMINIUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALUMINIUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALUMINIUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ALUMINIUM_HAMMER, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.EMERALDFLOWER, Models.GENERATED);
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_BOOTS));
+        itemModelGenerator.register(ModItems.ALUMINIUM_HORSE_ARMOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);
@@ -67,8 +71,27 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.EMERALD_BOOTS));
-
         itemModelGenerator.register(ModItems.EMERALD_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.STEEL_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STEEL_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.STEEL_BOOTS));
+        itemModelGenerator.register(ModItems.STEEL_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.IRON_STICK, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
+
+
 
     }
 }

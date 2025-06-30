@@ -1,5 +1,8 @@
 {
   "values": [
-    "more-materials:emerald_sword"
+    "more-materials:copper_sword",
+    "more-materials:aluminium_sword",
+    "more-materials:emerald_sword",
+    "more-materials:steel_sword"
   ]
 }
