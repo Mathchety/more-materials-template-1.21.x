@@ -1,9 +1,7 @@
-// 1.21	2025-06-28T00:18:12.1995447	More Materials/Tags for minecraft:item
-f895f146a45f9193db658d00111ab89ab6420a05 data\minecraft\tags\item\pickaxes.json
-10dfee31e49a6aab307562751e1f7d5eae8b934b data\minecraft\tags\item\axes.json
-29f125f7a2626088ec5c62db2279ebec5afc2f5f data\minecraft\tags\item\enchantable\bow.json
-4503194b1f6f11bad707be7e347c1f8dd334695a data\minecraft\tags\item\hoes.json
-15bb3c937a1e9bb3c90b108b065c8ff56e99ccb2 data\minecraft\tags\item\enchantable\armor.json
-f77a3e369fb8d8c24dc4f52607dd4f98d75df789 data\more-materials\tags\item\transformable_items.json
-2ff47e0f4f228826b04576a77ffbb68a1e081a6b data\minecraft\tags\item\swords.json
-e8dcb3d37a14ef1cc9032ebc7da526244651adad data\minecraft\tags\item\shovels.json
+// 1.21	2025-06-29T22:55:36.4484087	More Materials/Tags for minecraft:item
+d672961e5ef17a4d3b3b25f9d68e780da7c2d11c data\minecraft\tags\item\pickaxes.json
+7911e7e399c8464d8c293564fadfb0bf77ceeff1 data\minecraft\tags\item\axes.json
+45dce16fbe4b2b60f7e11e603f8eb888d8de13ff data\minecraft\tags\item\hoes.json
+3b831f833ece62161d4d30b7ac221b26d0c833fd data\minecraft\tags\item\enchantable\armor.json
+4c8b02b1a41e5cb633ab1e93692452d0f318031b data\minecraft\tags\item\swords.json
+97a264ce3f1faad09fa8f0ac4ce027df61307903 data\minecraft\tags\item\shovels.json

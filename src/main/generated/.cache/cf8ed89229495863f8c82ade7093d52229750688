@@ -1,7 +1,4 @@
-// 1.21	2025-06-28T00:18:12.1985468	More Materials/Tags for minecraft:block
-7c06fc6f2080790cf278a813f656504f33870ab7 data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21	2025-06-29T22:55:36.4473947	More Materials/Tags for minecraft:block
+94dc91f008aa6c982461fa62e4f2f018a1d32d60 data\minecraft\tags\block\mineable\pickaxe.json
 68207c2cfa9bba7b98355ce93ca2367b86834851 data\minecraft\tags\block\needs_stone_tool.json
-6ddc433fc0af3c0db51d356fdfcb540c5decf069 data\minecraft\tags\block\needs_iron_tool.json
-6e76915d49531b71c0694ad7e08cd5a821c0a46e data\minecraft\tags\block\fences.json
-0821f235ae22ba2e069d8fbeeed43608b00706bb data\minecraft\tags\block\walls.json
-f9cef255acbf8ec00148ab4eadf834d84567cdeb data\minecraft\tags\block\fence_gates.json
+2dfa5443a2a36c6f316e7941c695331828ed8fe0 data\minecraft\tags\block\needs_diamond_tool.json

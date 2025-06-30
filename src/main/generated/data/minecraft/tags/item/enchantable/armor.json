@@ -1,8 +1,20 @@
 {
   "values": [
+    "more-materials:copper_helmet",
+    "more-materials:copper_chestplate",
+    "more-materials:copper_leggings",
+    "more-materials:copper_boots",
+    "more-materials:aluminium_helmet",
+    "more-materials:aluminium_chestplate",
+    "more-materials:aluminium_leggings",
+    "more-materials:aluminium_boots",
     "more-materials:emerald_helmet",
     "more-materials:emerald_chestplate",
     "more-materials:emerald_leggings",
-    "more-materials:emerald_boots"
+    "more-materials:emerald_boots",
+    "more-materials:steel_helmet",
+    "more-materials:steel_chestplate",
+    "more-materials:steel_leggings",
+    "more-materials:steel_boots"
   ]
 }

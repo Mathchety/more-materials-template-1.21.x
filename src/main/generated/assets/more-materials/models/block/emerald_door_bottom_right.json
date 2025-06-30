@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_bottom_right",
-  "textures": {
-    "bottom": "more-materials:block/emerald_door_bottom",
-    "top": "more-materials:block/emerald_door_top"
-  }
-}
