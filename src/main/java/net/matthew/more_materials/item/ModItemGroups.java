@@ -43,6 +43,9 @@ public class ModItemGroups {
 
                       entries.add(ModItems.POWERED_COAL);
 
+                      entries.add(ModItems.CAULIFLOWER_SEEDS);
+                      entries.add(ModItems.CAULIFLOWER);
+
 
 
 

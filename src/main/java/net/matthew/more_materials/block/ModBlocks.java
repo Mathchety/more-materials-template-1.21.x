@@ -1,9 +1,11 @@
 package net.matthew.more_materials.block;
 
 import net.matthew.more_materials.MoreMaterials;
+import net.matthew.more_materials.block.custom.CauliflowerCropBlock;
 import net.matthew.more_materials.block.custom.EmeraldLampBlock;
 import net.matthew.more_materials.block.custom.MagicBlock;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -67,6 +69,13 @@ public class ModBlocks {
             new EmeraldLampBlock(AbstractBlock.Settings.create()
                     .strength(1f).requiresTool().luminance(state -> state.get(EmeraldLampBlock.CLICKED) ? 10 : 0)));
 
+    public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
+            new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision().mapColor(MapColor.DARK_GREEN)
+                    .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block){
+        return Registry.register(Registries.BLOCK, Identifier.of(MoreMaterials.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

@@ -3,6 +3,7 @@ package net.matthew.more_materials.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.matthew.more_materials.block.ModBlocks;
+import net.matthew.more_materials.block.custom.CauliflowerCropBlock;
 import net.matthew.more_materials.block.custom.EmeraldLampBlock;
 import net.matthew.more_materials.item.ModItems;
 import net.minecraft.block.Block;
@@ -43,6 +44,8 @@ public class ModModelProvider extends FabricModelProvider {
         Identifier lampOnIdentifier = blockStateModelGenerator.createSubModel(ModBlocks.EMERALD_LAMP, "_on", Models.CUBE_ALL, TextureMap::all);
         blockStateModelGenerator.blockStateCollector.accept(VariantsBlockStateSupplier.create(ModBlocks.EMERALD_LAMP)
                 .coordinate(BlockStateModelGenerator.createBooleanModelMap(EmeraldLampBlock.CLICKED, lampOnIdentifier, lampOffIdentifier)));
+
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
     }
 
     @Override
@@ -55,6 +58,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMERALDFLOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAULIFLOWER, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.EMERALD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.EMERALD_PICKAXE, Models.HANDHELD);

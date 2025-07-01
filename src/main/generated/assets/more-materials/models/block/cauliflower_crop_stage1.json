@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "more-materials:block/cauliflower_crop_stage1"
+  }
+}

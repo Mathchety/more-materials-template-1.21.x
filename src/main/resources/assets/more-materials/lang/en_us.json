@@ -13,8 +13,13 @@
   "item.more-materials.emerald_boots": "Emerald Boots",
 
   "item.more-materials.emerald_horse_armor": "Emerald Horse Armor",
+
   "item.more-materials.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.more-materials.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.more-materials.cauliflower_seeds": "Cauliflower Seeds",
+  "item.more-materials.cauliflower": "Cauliflower",
+  "item.more-materials.cauliflower_crop": "Cauliflower Crop",
 
   "item.more-materials.iron_stick": "Iron Stick",
   "item.more-materials.aluminium_ingot": "Aluminium Ingot",
@@ -41,8 +46,6 @@
 
   "block.more-materials.emerald_lamp": "Emerald Lamp",
 
-  "effect.more-materials.slimey": "Slimey",
-
   "painting.more-materials.saw_them.title": "Saw Them",
   "painting.more-materials.saw_them.author": "NanoAttack",
   "painting.more-materials.shrimp.title": "Shrimp",
@@ -50,6 +53,7 @@
 
   "enchantment.more-materials.lightning_striker": "Lightning Striker",
 
+  "effect.more-materials.slimey": "Slimey",
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
