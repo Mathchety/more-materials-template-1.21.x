@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.component.ModDataComponentTypes;
 import net.matthew.more_materials.effect.ModEffects;
+import net.matthew.more_materials.enchantment.ModEnchantmentEffects;
 import net.matthew.more_materials.item.ModItemGroups;
 import net.matthew.more_materials.item.ModItems;
 import net.matthew.more_materials.potion.ModPotions;
@@ -34,6 +35,8 @@ public class MoreMaterials implements ModInitializer {
 
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
+
+		ModEnchantmentEffects.registerEnchantmentEffects();
 
 		ModDataComponentTypes.registerModDataComponentTypes();
 
