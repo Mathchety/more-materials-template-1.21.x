@@ -9,6 +9,7 @@ import net.matthew.more_materials.component.ModDataComponentTypes;
 import net.matthew.more_materials.item.ModItemGroups;
 import net.matthew.more_materials.item.ModItems;
 import net.matthew.more_materials.util.HammerUsageEvent;
+import net.matthew.more_materials.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +25,8 @@ public class MoreMaterials implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModDataComponentTypes.registerModDataComponentTypes();
+
+		ModWorldGeneration.generateModWorldGen();
 
 		FuelRegistry.INSTANCE.add(ModItems.POWERED_COAL, 12800);
 

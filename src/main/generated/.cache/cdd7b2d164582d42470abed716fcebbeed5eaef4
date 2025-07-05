@@ -1,4 +1,4 @@
-// 1.21	2025-06-29T22:55:36.4494081	More Materials/Model Definitions
+// 1.21	2025-07-05T00:01:17.499928	More Materials/Model Definitions
 67e274c74dab21d99da1bef5da0cf39d89784171 assets\more-materials\models\item\emerald_boots_gold_trim.json
 debc9e16dc380f9878e3ebe3ea64694e293ed2ac assets\more-materials\models\item\aluminium_helmet.json
 8c0f34786fbce1ace2451c823dad4bfc462bafc9 assets\more-materials\models\item\steel_boots_iron_trim.json
@@ -84,8 +84,8 @@ e3ae49c1ac732dac78761d48e9df983217ad3668 assets\more-materials\models\item\emera
 bb632e46e0dcf37619db411ad760a3c0f1bae668 assets\more-materials\models\block\deepslate_aluminium_ore.json
 fc9d34910cd3032402d3648a6776dbb6746188a9 assets\more-materials\models\item\deepslate_aluminium_ore.json
 ce558b80a9e4ee039832e8c63f983c3cbe87ce98 assets\more-materials\models\item\steel_chestplate_diamond_trim.json
-19da23de8a32fb4e4ec26eefc3118230735c8af8 assets\more-materials\models\item\aluminium_leggings_quartz_trim.json
 34c6d1c6038e7c921b7676d083591647ee9c805a assets\more-materials\models\item\copper_pickaxe.json
+19da23de8a32fb4e4ec26eefc3118230735c8af8 assets\more-materials\models\item\aluminium_leggings_quartz_trim.json
 1432a130aadf1781aab36f132aef0d873e23467a assets\more-materials\models\item\copper_hoe.json
 da2da50f7561c63816aeebd39316efb185642786 assets\more-materials\models\item\copper_helmet.json
 ccdbb5fe392d6524a2b423da5fb92a166a95b632 assets\more-materials\models\item\aluminium_chestplate_netherite_trim.json
