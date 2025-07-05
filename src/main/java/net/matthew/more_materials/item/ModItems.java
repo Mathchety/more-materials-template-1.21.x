@@ -114,6 +114,10 @@ public class ModItems {
             new AnimalArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
                     .maxCount(1)));
 
+    public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer",
+            new HammerItem(ToolMaterials.DIAMOND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.DIAMOND, 6, -3.1f))));
+
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new Item.Settings()));
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterials.STEEL, new Item.Settings()

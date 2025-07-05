@@ -24,6 +24,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.COPPER_PICKAXE)
                 .add(ModItems.ALUMINIUM_PICKAXE)
+                .add(ModItems.DIAMOND_HAMMER)
                 .add(ModItems.EMERALD_PICKAXE)
                 .add(ModItems.EMERALD_HAMMER)
                 .add(ModItems.STEEL_PICKAXE)

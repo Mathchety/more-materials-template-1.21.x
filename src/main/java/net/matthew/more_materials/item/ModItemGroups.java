@@ -58,6 +58,8 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_BOOTS);
                         entries.add(ModItems.EMERALD_HORSE_ARMOR);
 
+                        entries.add(ModItems.DIAMOND_HAMMER);
+
                         entries.add(ModItems.STEEL_INGOT);
 
                         entries.add(ModItems.STEEL_SWORD);

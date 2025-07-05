@@ -1,4 +1,4 @@
-// 1.21	2025-07-05T00:57:11.6872411	More Materials/Model Definitions
+// 1.21	2025-07-05T16:03:00.6538719	More Materials/Model Definitions
 67e274c74dab21d99da1bef5da0cf39d89784171 assets\more-materials\models\item\emerald_boots_gold_trim.json
 debc9e16dc380f9878e3ebe3ea64694e293ed2ac assets\more-materials\models\item\aluminium_helmet.json
 8c0f34786fbce1ace2451c823dad4bfc462bafc9 assets\more-materials\models\item\steel_boots_iron_trim.json
@@ -74,8 +74,8 @@ dfa392f34655444698e3ed19f4d1bce72e09a045 assets\more-materials\models\item\coppe
 0d503be9fccb012cbf946b910242549dc468281f assets\more-materials\models\item\raw_aluminium_block.json
 2f789a1d9ba94c5d5085bef4f5a9c43bddfaa3c3 assets\more-materials\models\item\copper_boots_diamond_trim.json
 4c1e22371fbba3a5149b45a283adde8a2372427c assets\more-materials\models\item\steel_sword.json
-5bf499f3c3407cc84034a0ffbe43168d394870aa assets\more-materials\models\item\aluminium_boots_netherite_trim.json
 730b1860eebac0eaf46aab71ccbf1f6476c438e8 assets\more-materials\models\item\steel_boots_lapis_trim.json
+5bf499f3c3407cc84034a0ffbe43168d394870aa assets\more-materials\models\item\aluminium_boots_netherite_trim.json
 af4dae7bcee416b76512c405e1d1aadf3f752185 assets\more-materials\models\item\emerald_helmet_iron_trim.json
 e31276df9516e316861a4dcbf09bb7383d061aa1 assets\more-materials\models\item\aluminium_block.json
 e3ae49c1ac732dac78761d48e9df983217ad3668 assets\more-materials\models\item\emerald_helmet_redstone_trim.json
@@ -115,8 +115,8 @@ f3b36265220d506ba003dda3947e2e252a81a8f8 assets\more-materials\models\item\steel
 af1f483a3a436960a9853cdb0528e1964e076489 assets\more-materials\models\item\steel_boots_amethyst_trim.json
 5e2a56a4fd4ea740ab413cf8f1b839c725d60c27 assets\more-materials\models\item\aluminium_helmet_quartz_trim.json
 8f7ccb668cc0b8fb6be04ebc8867ac4ca6dcb9f1 assets\more-materials\models\item\emerald_leggings_gold_trim.json
-bedc272124b18a84e8c9b77bcef58f28d5876014 assets\more-materials\models\item\aluminium_leggings_redstone_trim.json
 09ad4e3e696d05316e717e0d631171277fe940e3 assets\more-materials\models\item\copper_leggings_copper_trim.json
+bedc272124b18a84e8c9b77bcef58f28d5876014 assets\more-materials\models\item\aluminium_leggings_redstone_trim.json
 0887e1766ecb2ee784d56de24867008d7f2cdc09 assets\more-materials\models\item\aluminium_boots_emerald_trim.json
 931bbcc88473cf010d5de0b327ec4e7cdbd2d181 assets\more-materials\models\item\copper_boots_quartz_trim.json
 8275879c3a4c3927e8c9b95c1080e0086e10d034 assets\more-materials\models\item\aluminium_helmet_iron_trim.json
@@ -191,6 +191,7 @@ f54820211730e46198659984c43f18b144f24efe assets\more-materials\models\item\alumi
 b4444c571974153ed6b44ac75b937f28315d67e2 assets\more-materials\models\item\steel_leggings_redstone_trim.json
 93b8fa4f8855bbb95de0fc37ccc5039129fccf4b assets\more-materials\blockstates\aluminium_ore.json
 648dc2a0119af953636944fa8d3d07096b1a1822 assets\more-materials\models\item\aluminium_chestplate_lapis_trim.json
+d4cbfb7c0382dd2f6c9aa566c10abbea4b3bbbef assets\more-materials\models\item\diamond_hammer.json
 e2d968c994cd5c3ea9a39bb51d35a64ea34392ad assets\more-materials\models\item\aluminium_boots_amethyst_trim.json
 bfcb76c3047360941207dbbfeabc219c9df8fea8 assets\more-materials\models\item\steel_horse_armor.json
 28bc0ad0eb046fd739dc9310d4b7400619fbe56c assets\more-materials\models\item\aluminium_horse_armor.json
