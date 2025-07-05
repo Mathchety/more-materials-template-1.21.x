@@ -3,6 +3,7 @@ package net.matthew.more_materials.block;
 import net.matthew.more_materials.MoreMaterials;
 import net.matthew.more_materials.block.custom.CauliflowerCropBlock;
 import net.matthew.more_materials.block.custom.EmeraldLampBlock;
+import net.matthew.more_materials.block.custom.HoneyBerryBushBlock;
 import net.matthew.more_materials.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
@@ -72,6 +73,9 @@ public class ModBlocks {
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
             new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision().mapColor(MapColor.DARK_GREEN)
                     .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block HONEY_BARRY_BUSH = registerBlockWithoutBlockItem("honey_berry_bush",
+            new HoneyBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block){
         return Registry.register(Registries.BLOCK, Identifier.of(MoreMaterials.MOD_ID, name), block);

@@ -86,7 +86,10 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
     public static final Item CAULIFLOWER = registerItem("cauliflower",
-            new Item(new Item.Settings().food(ModFoodComponents.EMERALDFLOWER)));
+            new Item(new Item.Settings().food(ModFoodComponents.CAULIFLOWER)));
+
+    public static final Item HONEY_BERRIES = registerItem("honey_berries",
+            new AliasedBlockItem(ModBlocks.HONEY_BARRY_BUSH, new Item.Settings().food(ModFoodComponents.HONEY_BERRY)));
 
 
     private static Item registerItem(String name, Item item){

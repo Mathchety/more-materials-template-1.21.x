@@ -19,7 +19,12 @@
 
   "item.more-materials.cauliflower_seeds": "Cauliflower Seeds",
   "item.more-materials.cauliflower": "Cauliflower",
-  "item.more-materials.cauliflower_crop": "Cauliflower Crop",
+  "block.more-materials.cauliflower_crop": "Cauliflower Crop",
+
+  "item.more-materials.honey_berries": "Honey Berries",
+  "block.more-materials.honey_berry_bush": "Honey Berry Bush",
+
+
 
   "item.more-materials.iron_stick": "Iron Stick",
   "item.more-materials.aluminium_ingot": "Aluminium Ingot",

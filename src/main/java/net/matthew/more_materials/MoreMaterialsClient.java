@@ -13,6 +13,7 @@ public class MoreMaterialsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EMERALD_TRAPDOOR, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAULIFLOWER_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HONEY_BARRY_BUSH, RenderLayer.getCutout());
 
         ModModelPredicates.registerModelPredicates();
     }

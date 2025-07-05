@@ -1,4 +1,4 @@
-// 1.21	2025-06-30T23:33:20.2814819	More Materials/Block Loot Tables
+// 1.21	2025-07-04T22:37:49.1828321	More Materials/Block Loot Tables
 66f87dbea90a16affdbfa7eb06e699f9c823aa08 data\more-materials\loot_table\blocks\emerald_button.json
 6c211fd619abbb6526e3fd62696519915fe3976c data\more-materials\loot_table\blocks\emerald_trapdoor.json
 468afc62e4ca1c348e247b0f4136f418d7970278 data\more-materials\loot_table\blocks\emerald_pressure_plate.json
@@ -14,4 +14,5 @@ b75f43a7c99cfadb08f119250280ee43c7346d47 data\more-materials\loot_table\blocks\e
 1325b66d3239d79d249063c6247424cfd86d7ceb data\more-materials\loot_table\blocks\raw_aluminium_block.json
 683eb92b6fa1d790db17aceed74303d63d3a1b3a data\more-materials\loot_table\blocks\emerald_door.json
 f93fb6ac373977f6a0604459a66772fe0c47d838 data\more-materials\loot_table\blocks\emerald_fence.json
+7e846cccc82bcbe64c8c4f755b7f45786d0c159d data\more-materials\loot_table\blocks\honey_berry_bush.json
 e3ae576bbab8eaa3cb0a42ae9b6ab32a6b4cffe0 data\more-materials\loot_table\blocks\magic_block.json

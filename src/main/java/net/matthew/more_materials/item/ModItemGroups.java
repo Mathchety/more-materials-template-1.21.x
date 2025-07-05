@@ -45,6 +45,7 @@ public class ModItemGroups {
 
                       entries.add(ModItems.CAULIFLOWER_SEEDS);
                       entries.add(ModItems.CAULIFLOWER);
+                      entries.add(ModItems.HONEY_BERRIES);
 
 
 
