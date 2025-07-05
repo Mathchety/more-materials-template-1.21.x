@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "more-materials:iron_stick"
+    },
+    "S": {
+      "item": "more-materials:steel_ingot"
+    }
+  },
+  "pattern": [
+    "S",
+    "S",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:steel_sword"
+  }
+}

@@ -45,7 +45,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.HELMET, 3);
                 map.put(ArmorItem.Type.BODY, 11);
             }), 14, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, () -> Ingredient.ofItems(Items.EMERALD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(MoreMaterials.MOD_ID, "emerald"))), 2.5f, 0.1f));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(MoreMaterials.MOD_ID, "emerald"))), 2.0f, 0.0f));
 
     public static final RegistryEntry<ArmorMaterial> STEEL_ARMOR_MATERIAL = registerArmorMaterial("steel",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {

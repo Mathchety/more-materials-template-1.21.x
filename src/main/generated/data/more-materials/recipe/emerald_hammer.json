@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_block"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "I": {
+      "item": "more-materials:iron_stick"
+    }
+  },
+  "pattern": [
+    "EBE",
+    "EIE",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:emerald_hammer"
+  }
+}

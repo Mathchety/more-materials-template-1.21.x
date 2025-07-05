@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_emerald": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:emerald"
+            "items": "minecraft:copper_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "more-materials:powered_coal"
+        "recipe": "more-materials:copper_boots"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_emerald"
+      "has_copper_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "more-materials:powered_coal"
+      "more-materials:copper_boots"
     ]
   }
 }
