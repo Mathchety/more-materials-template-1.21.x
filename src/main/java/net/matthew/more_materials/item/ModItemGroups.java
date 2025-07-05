@@ -23,7 +23,6 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_AXE);
                         entries.add(ModItems.COPPER_SHOVEL);
                         entries.add(ModItems.COPPER_HOE);
-                        entries.add(ModItems.COPPER_HAMMER);
 
                         entries.add(ModItems.COPPER_HELMET);
                         entries.add(ModItems.COPPER_CHESTPLATE);
@@ -39,7 +38,6 @@ public class ModItemGroups {
                         entries.add(ModItems.ALUMINIUM_AXE);
                         entries.add(ModItems.ALUMINIUM_SHOVEL);
                         entries.add(ModItems.ALUMINIUM_HOE);
-                        entries.add(ModItems.ALUMINIUM_HAMMER);
 
                         entries.add(ModItems.ALUMINIUM_HELMET);
                         entries.add(ModItems.ALUMINIUM_CHESTPLATE);
@@ -77,7 +75,6 @@ public class ModItemGroups {
 
                         entries.add(ModItems.IRON_STICK);
 
-                        entries.add(ModItems.POWERED_COAL);
 
 
 

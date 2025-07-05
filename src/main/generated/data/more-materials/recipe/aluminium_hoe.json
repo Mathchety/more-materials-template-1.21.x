@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "more-materials:aluminium_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "AA",
+    " I",
+    " I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:aluminium_hoe"
+  }
+}

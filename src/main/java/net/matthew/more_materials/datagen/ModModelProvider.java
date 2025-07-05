@@ -36,7 +36,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COPPER_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COPPER_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.COPPER_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
@@ -52,7 +51,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALUMINIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ALUMINIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ALUMINIUM_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.ALUMINIUM_HAMMER, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ALUMINIUM_CHESTPLATE));
@@ -89,7 +87,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.STEEL_HORSE_ARMOR, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.IRON_STICK, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.POWERED_COAL, Models.GENERATED);
 
 
 

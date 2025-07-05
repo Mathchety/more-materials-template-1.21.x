@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "more-materials:steel_block"
+    },
+    "I": {
+      "item": "more-materials:iron_stick"
+    },
+    "S": {
+      "item": "more-materials:steel_ingot"
+    }
+  },
+  "pattern": [
+    "SBS",
+    "SIS",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-materials:steel_hammer"
+  }
+}

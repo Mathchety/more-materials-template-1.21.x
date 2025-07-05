@@ -28,8 +28,6 @@ public class MoreMaterials implements ModInitializer {
 
 		ModWorldGeneration.generateModWorldGen();
 
-		FuelRegistry.INSTANCE.add(ModItems.POWERED_COAL, 12800);
-
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 	}
 }
