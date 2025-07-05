@@ -1,8 +1,10 @@
-// 1.21	2025-07-05T00:57:11.6822541	More Materials/Recipes
+// 1.21	2025-07-05T16:03:00.6488846	More Materials/Recipes
 ea48cef9946aa9b19dd23c7cd3c2cc82a02641e2 data\more-materials\advancement\recipes\tools\copper_shovel.json
 05c8de6f79e46b3c13808bfe01a793c0e8476b6a data\more-materials\advancement\recipes\tools\aluminium_pickaxe.json
 5ac97d7f55673540082145379dc0772f8d85d5c9 data\more-materials\recipe\emerald_boots.json
 3068331e15afe1018378837cf38e427553378b8e data\more-materials\advancement\recipes\combat\emerald_helmet.json
+2766c009156736e9c55ee767e3d17f0a848c1370 data\more-materials\advancement\recipes\tools\diamond_hammer.json
+7cd31de66f2c311595fdeda7d26d8000209410c2 data\more-materials\recipe\diamond_hammer.json
 b32d9091b55c306b8e35efd4607cb2e38abacd55 data\more-materials\recipe\emerald_hoe.json
 ac0d089c285898641b21d0992d134d76b688ef73 data\more-materials\recipe\iron_stick.json
 76ade624f956ca8cfc6c0059bc5eee74eacdf7bc data\more-materials\advancement\recipes\tools\copper_pickaxe.json
