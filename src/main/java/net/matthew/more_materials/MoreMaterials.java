@@ -15,6 +15,7 @@ import net.matthew.more_materials.item.ModItems;
 import net.matthew.more_materials.potion.ModPotions;
 import net.matthew.more_materials.sound.ModSounds;
 import net.matthew.more_materials.util.HammerUsageEvent;
+import net.matthew.more_materials.world.gen.ModWorldGeneration;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
@@ -38,6 +39,7 @@ public class MoreMaterials implements ModInitializer {
 		ModPotions.registerPotions();
 
 		ModEnchantmentEffects.registerEnchantmentEffects();
+		ModWorldGeneration.generateModWorldGen();
 
 		ModDataComponentTypes.registerModDataComponentTypes();
 
