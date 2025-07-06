@@ -4,10 +4,13 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.item.ModItems;
+import net.minecraft.block.SmithingTableBlock;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 
@@ -42,6 +45,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("I")
                 .input('I', Items.IRON_INGOT)
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.GOLDEN_HORSE_ARMOR, 1)
+                .pattern("G G")
+                .pattern("GGG")
+                .pattern("G G")
+                .input('G', Items.GOLD_INGOT)
+                .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_SWORD, 1)
@@ -107,6 +118,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.COPPER_BOOTS, 1)
                 .pattern("C C")
+                .pattern("C C")
+                .input('C', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_HORSE_ARMOR, 1)
+                .pattern("C C")
+                .pattern("CCC")
                 .pattern("C C")
                 .input('C', Items.COPPER_INGOT)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
@@ -179,6 +197,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A', ModItems.ALUMINIUM_INGOT)
                 .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_HORSE_ARMOR, 1)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.IRON_HORSE_ARMOR, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("I I")
+                .input('I', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.DIAMOND_HAMMER, 1)
                 .pattern("DBD")
@@ -187,6 +220,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('D', Items.DIAMOND)
                 .input('B', Items.DIAMOND_BLOCK)
                 .input('S', Items.STICK)
+                .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.DIAMOND_HORSE_ARMOR, 1)
+                .pattern("D D")
+                .pattern("DDD")
+                .pattern("D D")
+                .input('D', Items.DIAMOND)
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .offerTo(recipeExporter);
 
@@ -262,6 +302,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.EMERALD_BOOTS, 1)
                 .pattern("E E")
+                .pattern("E E")
+                .input('E', Items.EMERALD)
+                .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
+                .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.EMERALD_HORSE_ARMOR, 1)
+                .pattern("E E")
+                .pattern("EEE")
                 .pattern("E E")
                 .input('E', Items.EMERALD)
                 .criterion(hasItem(Items.EMERALD), conditionsFromItem(Items.EMERALD))
@@ -344,6 +391,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', ModItems.STEEL_INGOT)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(recipeExporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_HORSE_ARMOR, 1)
+                .pattern("S S")
+                .pattern("SSS")
+                .pattern("S S")
+                .input('S', ModItems.STEEL_INGOT)
+                .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                .offerTo(recipeExporter);
+
+
+//        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+//                        Ingredient.ofItems(ModItems.DIAMOND_HAMMER), Ingredient.ofItems(Items.NETHERITE_INGOT),
+//                        RecipeCategory.MISC, ModItems.NETHERITE_HAMMER )
+//                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT));
+//
+//        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE),
+//                        Ingredient.ofItems(Items.DIAMOND_HORSE_ARMOR), Ingredient.ofItems(Items.NETHERITE_INGOT),
+//                        RecipeCategory.MISC, ModItems.NETHERITE_HORSE_ARMOR )
+//                .criterion(hasItem(Items.NETHERITE_INGOT), conditionsFromItem(Items.NETHERITE_INGOT));
 
 
 
