@@ -28,6 +28,8 @@
   "item.more-materials.aluminium_boots": "Aluminium Boots",
   "item.more-materials.aluminium_horse_armor": "Aluminium Horse Armor",
 
+  "item.more-materials.diamond_hammer": "Diamond Hammer",
+
   "item.more-materials.emerald_sword": "Emerald Sword",
   "item.more-materials.emerald_pickaxe": "Emerald Pickaxe",
   "item.more-materials.emerald_axe": "Emerald Axe",
@@ -57,8 +59,10 @@
   "item.more-materials.steel_boots": "Steel Boots",
   "item.more-materials.steel_horse_armor": "Steel Horse Armor",
 
+  "item.more-materials.netherite_hammer": "Netherite Hammer",
+  "item.more-materials.netherite_horse_armor": "Netherite Horse Armor",
+
   "item.more-materials.iron_stick": "Iron Stick",
-  "item.more-materials.powered_coal": "Powered Coal",
 
   "block.more-materials.aluminium_block": "Block of Aluminium",
   "block.more-materials.raw_aluminium_block": "Block of Raw Aluminium",
@@ -69,7 +73,6 @@
 
 
   "itemgroup.more-materials.more_materials_items" : "More Materials Items",
-  "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks",
+  "itemgroup.more-materials.more_materials_blocks" : "More Materials Blocks"
 
-  "tooltip.more-materials.powered_coal" : "This powerful fuel can burn a full stack of items"
 }

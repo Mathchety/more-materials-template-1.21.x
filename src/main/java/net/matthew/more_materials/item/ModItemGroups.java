@@ -75,6 +75,9 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_BOOTS);
                         entries.add(ModItems.STEEL_HORSE_ARMOR);
 
+                        entries.add(ModItems.NETHERITE_HAMMER);
+                        entries.add(ModItems.NETHERITE_HORSE_ARMOR);
+
                         entries.add(ModItems.IRON_STICK);
 
 

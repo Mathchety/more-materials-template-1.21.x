@@ -154,6 +154,13 @@ public class ModItems {
             new AnimalArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
                     .maxCount(1)));
 
+    public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer",
+            new HammerItem(ToolMaterials.NETHERITE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ToolMaterials.NETHERITE, 6, -3.1f))));
+    public static final Item NETHERITE_HORSE_ARMOR = registerItem("netherite_horse_armor",
+            new AnimalArmorItem(ArmorMaterials.NETHERITE, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings()
+                    .maxCount(1)));
+
     public static final Item IRON_STICK = registerItem("iron_stick", new Item(new Item.Settings()));
 
 
