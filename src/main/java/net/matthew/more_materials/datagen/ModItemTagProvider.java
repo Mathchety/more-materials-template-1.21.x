@@ -2,6 +2,7 @@ package net.matthew.more_materials.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.matthew.more_materials.block.ModBlocks;
 import net.matthew.more_materials.item.ModItems;
 import net.matthew.more_materials.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
@@ -41,5 +42,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.EMERALD_CHESTPLATE)
                 .add(ModItems.EMERALD_LEGGINGS)
                 .add(ModItems.EMERALD_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.DRIFTWOOD_LOG.asItem())
+                .add(ModBlocks.DRIFTWOOD_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_DRIFTWOOD_LOG.asItem())
+                .add(ModBlocks.STRIPPED_DRIFTWOOD_WOOD.asItem());
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.DRIFTWOOD_PLANKS.asItem());
     }
 }

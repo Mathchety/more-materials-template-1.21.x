@@ -1,4 +1,8 @@
-// 1.21	2025-07-04T23:36:25.8332377	More Materials/
+// 1.21	2025-07-06T22:36:57.8789022	More Materials/
 0459e53a47c6431b6a396b7f06aa3ba123638d85 data\more-materials\worldgen\configured_feature\aluminium_ore.json
 1366fc23f85f298c0279a4fc2fdc9b32db2a5188 data\more-materials\enchantment\lightning_striker.json
+02628b7ab99b42d88a1c3a7f29412a2f302f54e7 data\more-materials\worldgen\placed_feature\driftwood_placed.json
+dfd6f5bfa2b882404494d024b2ec5ceebe9ce44a data\more-materials\worldgen\configured_feature\honey_berry_bush.json
 1ea8fd8a13e5aa10af60784e984570cd811fad62 data\more-materials\worldgen\placed_feature\aluminium_ore_placed.json
+67d725a3bfac9ae652a7aa71b30640a04184f362 data\more-materials\worldgen\placed_feature\honey_berry_bush_placed.json
+099a1d5e1006236f9578bc7691cc344ba5dfd7fe data\more-materials\worldgen\configured_feature\driftwood.json

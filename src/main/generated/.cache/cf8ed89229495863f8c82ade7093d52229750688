@@ -1,4 +1,5 @@
-// 1.21	2025-07-04T23:36:25.8342358	More Materials/Tags for minecraft:block
+// 1.21	2025-07-06T22:36:57.8808968	More Materials/Tags for minecraft:block
+ce04fc2f95af36f8ef6ed5356690fe09f5ce9a43 data\minecraft\tags\block\logs_that_burn.json
 7c06fc6f2080790cf278a813f656504f33870ab7 data\minecraft\tags\block\mineable\pickaxe.json
 68207c2cfa9bba7b98355ce93ca2367b86834851 data\minecraft\tags\block\needs_stone_tool.json
 6ddc433fc0af3c0db51d356fdfcb540c5decf069 data\minecraft\tags\block\needs_iron_tool.json
